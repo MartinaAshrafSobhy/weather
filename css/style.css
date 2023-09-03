@@ -1,0 +1,63 @@
+body{
+    background-color: #2f4f4f;
+}
+
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 8px;
+}
+.menu-item{
+    float: left;
+    margin-left: 10px;
+}
+.menu-item a {
+    text-decoration: none;
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-weight: 400;
+}
+.menu-item:hover a {
+    border-color: #009ad8;
+    color: #009ad8;
+}
+
+.weather{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+}
+
+.logo-img
+{
+    width: 80px;
+    height: 40px;
+}
+
+.bg-main-color
+{
+    background-color: rgba(47, 79, 79, 0.7);
+}
+
+.bg-sec-color
+{
+    background-color:rgb(25, 56, 56);
+}
+
+.footer-icons
+{
+    width: 20px;
+    height: 20px;
+}
+
+.text-light-blue
+{
+    color:#009ad8;
+}
+.txt{
+    color: #338f8f !important;
+}
